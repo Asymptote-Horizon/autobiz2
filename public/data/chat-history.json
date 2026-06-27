@@ -1,0 +1,110 @@
+{
+    "conversations": {
+        "msg-001": {
+            "messages": [
+                {
+                    "id": "m1",
+                    "type": "user",
+                    "content": "Draft an email to my supplier about delayed shipment",
+                    "timestamp": "2024-02-11T10:25:00Z"
+                },
+                {
+                    "id": "m2",
+                    "type": "agent",
+                    "content": "I'll draft a professional email for you regarding the delayed shipment. Let me prepare that now.",
+                    "timestamp": "2024-02-11T10:25:30Z"
+                },
+                {
+                    "id": "m3",
+                    "type": "tool_execution",
+                    "tool": "email_draft",
+                    "content": "Draft created: 'Re: Shipment Delay - Order #12345'",
+                    "timestamp": "2024-02-11T10:26:00Z",
+                    "metadata": {
+                        "subject": "Re: Shipment Delay - Order #12345",
+                        "preview": "Dear Supplier,\n\nI hope this message finds you well. I am writing to follow up on our order #12345, which was expected to arrive by February 8th..."
+                    }
+                },
+                {
+                    "id": "m4",
+                    "type": "agent",
+                    "content": "Here's your email draft! I've kept the tone professional yet firm. The email mentions:\n\n• Order reference (#12345)\n• Expected delivery date\n• Request for updated timeline\n• Impact on your operations\n\nShall I send it, or would you like to make any changes?",
+                    "timestamp": "2024-02-11T10:26:30Z"
+                },
+                {
+                    "id": "m5",
+                    "type": "user",
+                    "content": "Looks great! Send it to supplier@example.com",
+                    "timestamp": "2024-02-11T10:28:00Z"
+                },
+                {
+                    "id": "m6",
+                    "type": "tool_execution",
+                    "tool": "email_send",
+                    "content": "Email sent successfully to supplier@example.com",
+                    "timestamp": "2024-02-11T10:28:30Z",
+                    "metadata": {
+                        "to": "supplier@example.com",
+                        "status": "delivered"
+                    }
+                },
+                {
+                    "id": "m7",
+                    "type": "agent",
+                    "content": "Done! The email has been sent to supplier@example.com. I've saved a copy in your sent folder. Would you like me to set a reminder to follow up if you don't hear back in 2 days?",
+                    "timestamp": "2024-02-11T10:29:00Z"
+                }
+            ]
+        },
+        "data-001": {
+            "messages": [
+                {
+                    "id": "d1",
+                    "type": "user",
+                    "content": "Analyze my customer feedback from last month",
+                    "timestamp": "2024-02-11T09:30:00Z"
+                },
+                {
+                    "id": "d2",
+                    "type": "agent",
+                    "content": "I'll analyze the customer feedback data from January. Let me pull up the reports.",
+                    "timestamp": "2024-02-11T09:30:30Z"
+                },
+                {
+                    "id": "d3",
+                    "type": "tool_execution",
+                    "tool": "sentiment_analysis",
+                    "content": "Analysis complete: 156 reviews processed",
+                    "timestamp": "2024-02-11T09:32:00Z",
+                    "metadata": {
+                        "positive": 112,
+                        "neutral": 28,
+                        "negative": 16
+                    }
+                },
+                {
+                    "id": "d4",
+                    "type": "agent",
+                    "content": "Here's your January customer sentiment report:\n\n📊 **Overall Score: 4.2/5** (Up from 3.8 last month)\n\n✅ **Positive (72%)**: Customers love your product quality and fast delivery\n😐 **Neutral (18%)**: Some feedback about packaging\n❌ **Negative (10%)**: Complaints about return process\n\n**Top Keywords**: \"great quality\", \"fast delivery\", \"good price\"\n**Areas to Improve**: Return policy clarity, packaging quality",
+                    "timestamp": "2024-02-11T09:33:00Z"
+                }
+            ]
+        },
+        "mgr-001": {
+            "messages": [
+                {
+                    "id": "mg1",
+                    "type": "user",
+                    "content": "Give me a summary of today's tasks",
+                    "timestamp": "2024-02-11T11:00:00Z"
+                },
+                {
+                    "id": "mg2",
+                    "type": "agent",
+                    "content": "Good morning! Here's your daily briefing:\n\n📋 **Today's Priority Tasks:**\n\n1. **Supplier Follow-up** — Messenger drafted and sent your delay email ✅\n2. **Customer Analysis** — Data Analyser completed January sentiment report ✅\n3. **Pending Orders** — 23 orders awaiting processing\n4. **Team Meeting** — Scheduled at 3 PM (Alarmy will remind you)\n5. **Invoice Review** — Ledgerer flagged 3 invoices needing approval\n\n💡 **Quick Insight**: Revenue is up 13.6% this month. The Sales Agent is tracking 3 new leads from your website.\n\nWant me to prioritize any specific task?",
+                    "timestamp": "2024-02-11T11:01:00Z"
+                }
+            ]
+        }
+    }
+}

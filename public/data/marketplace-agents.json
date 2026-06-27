@@ -1,0 +1,186 @@
+{
+    "categories": [
+        "Retail",
+        "Restaurant",
+        "Healthcare",
+        "Education",
+        "Manufacturing",
+        "Services",
+        "Agriculture",
+        "Logistics"
+    ],
+    "featured_agents": [
+        {
+            "id": "mp-001",
+            "name": "Grocery Store Manager",
+            "creator": "RetailAI Solutions",
+            "description": "Complete inventory management for grocery stores. Tracks stock, manages suppliers, auto-generates purchase orders.",
+            "category": "Retail",
+            "rating": 4.8,
+            "reviews": 234,
+            "price": "free",
+            "tags": [
+                "grocery",
+                "inventory",
+                "billing"
+            ],
+            "downloads": 1240,
+            "avatar": "🛒",
+            "color": "#10b981",
+            "featured": true
+        },
+        {
+            "id": "mp-002",
+            "name": "Beauty Parlour Assistant",
+            "creator": "BeautyTech India",
+            "description": "Appointment scheduling, customer management, billing, and loyalty program for salons.",
+            "category": "Services",
+            "rating": 4.6,
+            "reviews": 189,
+            "price": 299,
+            "tags": [
+                "beauty",
+                "appointments",
+                "customers"
+            ],
+            "downloads": 890,
+            "avatar": "💅",
+            "color": "#ec4899",
+            "featured": true
+        },
+        {
+            "id": "mp-003",
+            "name": "Restaurant Order Manager",
+            "creator": "FoodTech Labs",
+            "description": "Handles Zomato/Swiggy orders, kitchen management, inventory tracking for restaurants.",
+            "category": "Restaurant",
+            "rating": 4.9,
+            "reviews": 312,
+            "price": 499,
+            "tags": [
+                "restaurant",
+                "orders",
+                "kitchen",
+                "delivery"
+            ],
+            "downloads": 2100,
+            "avatar": "🍽️",
+            "color": "#f59e0b",
+            "featured": true
+        },
+        {
+            "id": "mp-004",
+            "name": "Clinic Receptionist",
+            "creator": "HealthAI India",
+            "description": "Patient registration, appointment booking, prescription management for small clinics.",
+            "category": "Healthcare",
+            "rating": 4.7,
+            "reviews": 156,
+            "price": 599,
+            "tags": [
+                "healthcare",
+                "clinic",
+                "appointments",
+                "patients"
+            ],
+            "downloads": 670,
+            "avatar": "🏥",
+            "color": "#06b6d4"
+        },
+        {
+            "id": "mp-005",
+            "name": "Coaching Institute Manager",
+            "creator": "EduTech Pro",
+            "description": "Student enrollment, batch management, fee tracking, and parent communication.",
+            "category": "Education",
+            "rating": 4.5,
+            "reviews": 98,
+            "price": "free",
+            "tags": [
+                "education",
+                "coaching",
+                "students",
+                "batches"
+            ],
+            "downloads": 540,
+            "avatar": "📚",
+            "color": "#8b5cf6"
+        },
+        {
+            "id": "mp-006",
+            "name": "Kirana Digital Assistant",
+            "creator": "LocalBiz AI",
+            "description": "Digital billing, khata management, and supplier coordination for local shops.",
+            "category": "Retail",
+            "rating": 4.4,
+            "reviews": 445,
+            "price": "free",
+            "tags": [
+                "kirana",
+                "billing",
+                "khata",
+                "local"
+            ],
+            "downloads": 3200,
+            "avatar": "🏪",
+            "color": "#f97316"
+        },
+        {
+            "id": "mp-007",
+            "name": "GST Filing Helper",
+            "creator": "TaxEase India",
+            "description": "Automated GST return filing, input tax credit tracking, and compliance alerts.",
+            "category": "Services",
+            "rating": 4.8,
+            "reviews": 567,
+            "price": 199,
+            "tags": [
+                "gst",
+                "tax",
+                "compliance",
+                "filing"
+            ],
+            "downloads": 4500,
+            "avatar": "📋",
+            "color": "#14b8a6"
+        },
+        {
+            "id": "mp-008",
+            "name": "Farm Produce Tracker",
+            "creator": "AgriTech Solutions",
+            "description": "Track crop cycles, manage mandi prices, connect with buyers, weather alerts.",
+            "category": "Agriculture",
+            "rating": 4.3,
+            "reviews": 78,
+            "price": "free",
+            "tags": [
+                "agriculture",
+                "farming",
+                "mandi",
+                "crops"
+            ],
+            "downloads": 890,
+            "avatar": "🌾",
+            "color": "#84cc16"
+        },
+        {
+            "id": "mp-009",
+            "name": "Fleet Manager",
+            "creator": "LogiAI Pro",
+            "description": "Vehicle tracking, trip management, fuel expenses, driver coordination.",
+            "category": "Logistics",
+            "rating": 4.6,
+            "reviews": 123,
+            "price": 799,
+            "tags": [
+                "logistics",
+                "fleet",
+                "transport",
+                "tracking"
+            ],
+            "downloads": 450,
+            "avatar": "🚛",
+            "color": "#6366f1"
+        }
+    ]
+}

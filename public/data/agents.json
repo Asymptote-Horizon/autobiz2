@@ -1,0 +1,148 @@
+{
+    "agents": [
+        {
+            "id": "msg-001",
+            "name": "Messenger & Drafter",
+            "avatar": "✉️",
+            "color": "#3b82f6",
+            "description": "Handles emails, social media, document generation",
+            "status": "online",
+            "model": "gpt-4",
+            "tools": [
+                "email",
+                "social_media",
+                "pdf_generator"
+            ],
+            "lastMessage": "I've drafted your email to the supplier",
+            "timestamp": "2024-02-11T10:30:00Z"
+        },
+        {
+            "id": "data-001",
+            "name": "Data Analyser",
+            "avatar": "📊",
+            "color": "#8b5cf6",
+            "description": "Analyses emails, feedback, customer data",
+            "status": "online",
+            "model": "gpt-4",
+            "tools": [
+                "email_reader",
+                "sentiment_analysis",
+                "data_viz"
+            ],
+            "lastMessage": "Customer sentiment report is ready",
+            "timestamp": "2024-02-11T09:45:00Z"
+        },
+        {
+            "id": "mkt-001",
+            "name": "Marketing Lead",
+            "avatar": "📢",
+            "color": "#ec4899",
+            "description": "Creates marketing strategies and campaigns",
+            "status": "online",
+            "model": "gpt-4",
+            "tools": [
+                "campaign_builder",
+                "social_media",
+                "analytics"
+            ],
+            "lastMessage": "New campaign draft is ready for review",
+            "timestamp": "2024-02-10T16:20:00Z"
+        },
+        {
+            "id": "sales-001",
+            "name": "Sales Agent",
+            "avatar": "💼",
+            "color": "#f59e0b",
+            "description": "Develops sales plans and strategies",
+            "status": "busy",
+            "model": "gpt-4",
+            "tools": [
+                "crm",
+                "lead_scoring",
+                "proposal_generator"
+            ],
+            "lastMessage": "Processing 3 new leads from your website",
+            "timestamp": "2024-02-11T11:00:00Z"
+        },
+        {
+            "id": "ledger-001",
+            "name": "Ledgerer",
+            "avatar": "📒",
+            "color": "#10b981",
+            "description": "Records accounts, Excel operations, data entry",
+            "status": "online",
+            "model": "gpt-4",
+            "tools": [
+                "excel",
+                "tally",
+                "invoice_generator"
+            ],
+            "lastMessage": "Monthly expense report updated",
+            "timestamp": "2024-02-11T08:30:00Z"
+        },
+        {
+            "id": "alarm-001",
+            "name": "Alarmy",
+            "avatar": "⏰",
+            "color": "#ef4444",
+            "description": "Notifications, schedules, Google Calendar integration",
+            "status": "online",
+            "model": "gpt-3.5-turbo",
+            "tools": [
+                "calendar",
+                "reminders",
+                "notifications"
+            ],
+            "lastMessage": "Reminder: Team meeting at 3 PM today",
+            "timestamp": "2024-02-11T07:00:00Z"
+        },
+        {
+            "id": "fin-001",
+            "name": "Finance Expert",
+            "avatar": "💰",
+            "color": "#14b8a6",
+            "description": "Finance, stocks, profits, Tally integration",
+            "status": "online",
+            "model": "gpt-4",
+            "tools": [
+                "tally",
+                "stock_tracker",
+                "profit_calculator"
+            ],
+            "lastMessage": "Q4 profit analysis complete",
+            "timestamp": "2024-02-10T14:00:00Z"
+        },
+        {
+            "id": "mgr-001",
+            "name": "Manager",
+            "avatar": "👔",
+            "color": "#6366f1",
+            "description": "Orchestrates all agents, your go-to for anything",
+            "status": "online",
+            "model": "gpt-4",
+            "tools": [
+                "all_agents",
+                "task_delegator",
+                "report_builder"
+            ],
+            "lastMessage": "All tasks are on track. Here's your daily brief.",
+            "timestamp": "2024-02-11T11:30:00Z"
+        },
+        {
+            "id": "legal-001",
+            "name": "Legal Assistance",
+            "avatar": "⚖️",
+            "color": "#78716c",
+            "description": "Legal guidelines and structured advice",
+            "status": "offline",
+            "model": "gpt-4",
+            "tools": [
+                "legal_db",
+                "document_review",
+                "compliance_checker"
+            ],
+            "lastMessage": "GST filing guidelines updated",
+            "timestamp": "2024-02-09T12:00:00Z"
+        }
+    ]
+}

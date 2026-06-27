@@ -1,0 +1,13 @@
+{
+    "used_agents": [
+        "msg-001",
+        "data-001",
+        "mkt-001",
+        "sales-001",
+        "ledger-001",
+        "alarm-001",
+        "fin-001",
+        "mgr-001",
+        "legal-001"
+    ]
+}

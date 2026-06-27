@@ -1,0 +1,157 @@
+{
+    "metrics": {
+        "revenue": {
+            "current": 1254000,
+            "previous": 1104000,
+            "change": 13.6,
+            "currency": "INR"
+        },
+        "customers": {
+            "current": 450,
+            "previous": 420,
+            "change": 7.1
+        },
+        "orders": {
+            "pending": 23,
+            "completed": 187,
+            "cancelled": 5
+        },
+        "growth": {
+            "current": 18.5,
+            "previous": 12.3,
+            "change": 50.4
+        }
+    },
+    "chartData": {
+        "revenue": [
+            {
+                "month": "Aug",
+                "value": 780000
+            },
+            {
+                "month": "Sep",
+                "value": 850000
+            },
+            {
+                "month": "Oct",
+                "value": 920000
+            },
+            {
+                "month": "Nov",
+                "value": 1010000
+            },
+            {
+                "month": "Dec",
+                "value": 1104000
+            },
+            {
+                "month": "Jan",
+                "value": 1254000
+            }
+        ],
+        "sales_by_category": [
+            {
+                "category": "Electronics",
+                "sales": 450000
+            },
+            {
+                "category": "Clothing",
+                "sales": 320000
+            },
+            {
+                "category": "Home & Kitchen",
+                "sales": 215000
+            },
+            {
+                "category": "Health & Beauty",
+                "sales": 165000
+            },
+            {
+                "category": "Books & Stationery",
+                "sales": 104000
+            }
+        ],
+        "customer_segments": [
+            {
+                "name": "Repeat Buyers",
+                "value": 45,
+                "color": "#3b82f6"
+            },
+            {
+                "name": "New Customers",
+                "value": 30,
+                "color": "#10b981"
+            },
+            {
+                "name": "Occasional",
+                "value": 15,
+                "color": "#f59e0b"
+            },
+            {
+                "name": "Dormant",
+                "value": 10,
+                "color": "#ef4444"
+            }
+        ],
+        "daily_traffic": [
+            {
+                "day": "Mon",
+                "visitors": 1200,
+                "conversions": 85
+            },
+            {
+                "day": "Tue",
+                "visitors": 1350,
+                "conversions": 92
+            },
+            {
+                "day": "Wed",
+                "visitors": 1100,
+                "conversions": 78
+            },
+            {
+                "day": "Thu",
+                "visitors": 1420,
+                "conversions": 105
+            },
+            {
+                "day": "Fri",
+                "visitors": 1580,
+                "conversions": 120
+            },
+            {
+                "day": "Sat",
+                "visitors": 1800,
+                "conversions": 145
+            },
+            {
+                "day": "Sun",
+                "visitors": 1650,
+                "conversions": 130
+            }
+        ]
+    },
+    "ai_recommendations": [
+        {
+            "title": "Stock Alert: Product X running low",
+            "description": "Your inventory shows only 12 units of 'Wireless Earbuds Pro' left. At current sales rate, you'll run out in 3 days.",
+            "priority": "high",
+            "agent_id": "ledger-001",
+            "action_text": "Talk to Ledgerer"
+        },
+        {
+            "title": "High-value customer engagement opportunity",
+            "description": "3 customers who spent over ₹15,000 last quarter haven't purchased in 30 days. Personalized outreach could retain them.",
+            "priority": "medium",
+            "agent_id": "sales-001",
+            "action_text": "Talk to Sales Agent"
+        },
+        {
+            "title": "February sale campaign suggestion",
+            "description": "Valentine's Week campaign could boost revenue by 20-30% based on market trends for your category.",
+            "priority": "medium",
+            "agent_id": "mkt-001",
+            "action_text": "Talk to Marketing Lead"
+        }
+    ]
+}

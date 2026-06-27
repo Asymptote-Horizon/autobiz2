@@ -1,0 +1,174 @@
+{
+    "all_agents": [
+        {
+            "id": "msg-001",
+            "name": "Messenger & Drafter",
+            "avatar": "✉️",
+            "color": "#3b82f6",
+            "description": "Handles emails, social media, document generation",
+            "category": "Communication",
+            "tools": [
+                "email",
+                "social_media",
+                "pdf_generator"
+            ]
+        },
+        {
+            "id": "data-001",
+            "name": "Data Analyser",
+            "avatar": "📊",
+            "color": "#8b5cf6",
+            "description": "Analyses emails, feedback, customer data",
+            "category": "Analytics",
+            "tools": [
+                "email_reader",
+                "sentiment_analysis",
+                "data_viz"
+            ]
+        },
+        {
+            "id": "mkt-001",
+            "name": "Marketing Lead",
+            "avatar": "📢",
+            "color": "#ec4899",
+            "description": "Creates marketing strategies and campaigns",
+            "category": "Marketing",
+            "tools": [
+                "campaign_builder",
+                "social_media",
+                "analytics"
+            ]
+        },
+        {
+            "id": "sales-001",
+            "name": "Sales Agent",
+            "avatar": "💼",
+            "color": "#f59e0b",
+            "description": "Develops sales plans and strategies",
+            "category": "Sales",
+            "tools": [
+                "crm",
+                "lead_scoring",
+                "proposal_generator"
+            ]
+        },
+        {
+            "id": "ledger-001",
+            "name": "Ledgerer",
+            "avatar": "📒",
+            "color": "#10b981",
+            "description": "Records accounts, Excel operations, data entry",
+            "category": "Finance",
+            "tools": [
+                "excel",
+                "tally",
+                "invoice_generator"
+            ]
+        },
+        {
+            "id": "alarm-001",
+            "name": "Alarmy",
+            "avatar": "⏰",
+            "color": "#ef4444",
+            "description": "Notifications, schedules, Google Calendar integration",
+            "category": "Productivity",
+            "tools": [
+                "calendar",
+                "reminders",
+                "notifications"
+            ]
+        },
+        {
+            "id": "fin-001",
+            "name": "Finance Expert",
+            "avatar": "💰",
+            "color": "#14b8a6",
+            "description": "Finance, stocks, profits, Tally integration",
+            "category": "Finance",
+            "tools": [
+                "tally",
+                "stock_tracker",
+                "profit_calculator"
+            ]
+        },
+        {
+            "id": "mgr-001",
+            "name": "Manager",
+            "avatar": "👔",
+            "color": "#6366f1",
+            "description": "Orchestrates all agents, your go-to for anything",
+            "category": "Management",
+            "tools": [
+                "all_agents",
+                "task_delegator",
+                "report_builder"
+            ]
+        },
+        {
+            "id": "legal-001",
+            "name": "Legal Assistance",
+            "avatar": "⚖️",
+            "color": "#78716c",
+            "description": "Legal guidelines and structured advice",
+            "category": "Legal",
+            "tools": [
+                "legal_db",
+                "document_review",
+                "compliance_checker"
+            ]
+        },
+        {
+            "id": "hr-001",
+            "name": "HR Manager",
+            "avatar": "🧑‍💼",
+            "color": "#d946ef",
+            "description": "Employee management, attendance, payroll tracking",
+            "category": "HR",
+            "tools": [
+                "attendance",
+                "payroll",
+                "recruitment"
+            ]
+        },
+        {
+            "id": "support-001",
+            "name": "Customer Support",
+            "avatar": "🎧",
+            "color": "#0ea5e9",
+            "description": "Handles customer queries, tickets, and complaints",
+            "category": "Support",
+            "tools": [
+                "ticketing",
+                "chat_support",
+                "knowledge_base"
+            ]
+        },
+        {
+            "id": "social-001",
+            "name": "Social Media Manager",
+            "avatar": "📱",
+            "color": "#f43f5e",
+            "description": "Manages social media posts, engagement, analytics",
+            "category": "Marketing",
+            "tools": [
+                "instagram",
+                "twitter",
+                "facebook",
+                "analytics"
+            ]
+        },
+        {
+            "id": "inventory-001",
+            "name": "Inventory Tracker",
+            "avatar": "📦",
+            "color": "#a855f7",
+            "description": "Real-time inventory tracking and stock alerts",
+            "category": "Operations",
+            "tools": [
+                "stock_tracker",
+                "supplier_mgmt",
+                "reorder_alerts"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,88 @@
+{
+    "system_prompt": "You are a professional business analyst. Analyze the provided business information and return: 1) A comprehensive business summary (3-4 paragraphs with markdown formatting), 2) A list of 5-7 recommended AI agents from the available agents list, with reasoning for each recommendation.",
+    "available_agents": [
+        "msg-001",
+        "data-001",
+        "mkt-001",
+        "sales-001",
+        "ledger-001",
+        "alarm-001",
+        "fin-001",
+        "mgr-001",
+        "legal-001"
+    ],
+    "industries": [
+        "Retail & E-commerce",
+        "Restaurant & Food Service",
+        "Healthcare & Clinic",
+        "Education & Coaching",
+        "Manufacturing",
+        "IT & Software",
+        "Real Estate",
+        "Agriculture",
+        "Logistics & Transport",
+        "Beauty & Wellness",
+        "Consulting & Professional Services",
+        "Textile & Garments",
+        "Grocery & FMCG",
+        "Automotive",
+        "Other"
+    ],
+    "business_goals": [
+        "Increase Revenue",
+        "Reduce Costs",
+        "Improve Customer Satisfaction",
+        "Automate Operations",
+        "Expand Market Reach",
+        "Better Financial Management",
+        "Streamline Communication",
+        "Manage Inventory",
+        "Regulatory Compliance",
+        "Team Productivity"
+    ],
+    "challenges": [
+        "Manual Bookkeeping",
+        "Customer Communication",
+        "Inventory Management",
+        "Marketing & Sales",
+        "Cash Flow Management",
+        "Employee Management",
+        "Legal & Compliance",
+        "Technology Adoption",
+        "Competition",
+        "Supply Chain Issues"
+    ],
+    "mock_response": {
+        "summary": "**Your Business at a Glance**: Based on your description, you operate a mid-sized retail business with a growing customer base in the Indian market. Your operations span both online and offline channels, with a focus on providing quality products at competitive prices.\n\n**Key Strengths**: Your business shows strong customer loyalty, with a 72% positive sentiment rate among your existing customers. Your month-over-month revenue growth of 13.6% indicates healthy business momentum. The consistent order volume suggests stable demand for your product categories.\n\n**Areas for Improvement**: There are opportunities to optimize your inventory management, as current stock tracking appears to be manual. Your marketing strategy could benefit from data-driven campaign planning, especially for seasonal promotions. Additionally, automating routine communications like order updates and follow-ups could free up significant time.\n\n**Growth Potential**: With the right AI tools, your business could reduce operational overhead by 25-30% while improving customer engagement. Strategic use of data analytics and automated marketing could accelerate your growth trajectory significantly.",
+        "recommended_agents": [
+            {
+                "agent_id": "mgr-001",
+                "reason": "Your central coordinator — manages all agents and gives you a daily business overview"
+            },
+            {
+                "agent_id": "ledger-001",
+                "reason": "Automates your bookkeeping and inventory tracking to prevent stockouts"
+            },
+            {
+                "agent_id": "sales-001",
+                "reason": "Helps convert your growing leads into paying customers with strategic planning"
+            },
+            {
+                "agent_id": "msg-001",
+                "reason": "Streamlines your supplier and customer communications professionally"
+            },
+            {
+                "agent_id": "mkt-001",
+                "reason": "Creates data-driven marketing campaigns for seasonal opportunities"
+            },
+            {
+                "agent_id": "data-001",
+                "reason": "Analyzes customer feedback and trends to inform business decisions"
+            },
+            {
+                "agent_id": "fin-001",
+                "reason": "Tracks your financial health and provides profitability insights"
+            }
+        ]
+    }
+}
